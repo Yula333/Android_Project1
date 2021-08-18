@@ -47,7 +47,7 @@ public class MainActivity extends AppCompatActivity {
                 @Override
                 public void onClick(View v) {
                     count++;
-                    if (count > 2)
+                    if (count > 3)
                         count = 1;
 
                     switch (count) {
@@ -57,8 +57,11 @@ public class MainActivity extends AppCompatActivity {
                         case 2:
                             imageView_turn1.setImageResource(R.drawable.cycle_refresh_turn_icon);
                             break;
+                        case 3:
+                            imageView_turn1.setImageResource(R.drawable.ic_back2);
+                            break;
                         default:
-                            imageView_turn1.setImageResource(R.drawable.ic_back1);
+                            imageView_turn1.setImageResource(R.drawable.ic_like);
                             break;
                     }
                 }
