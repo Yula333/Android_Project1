@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">My Activity</string>
+    <string name="app_logo">Конвертер</string>
+    <string name="hint_textField">Введите число...</string>
+    <string name="button_text">КОНВЕРТИРОВАТЬ</string>
+    <string name="textview">TextView</string>
+    <string name="second_activity">Фрагменты</string>
+    <string name="info_btn">Дополнительная информация</string>
+    <string name="btn_second_activity">Вернуться</string>
+    <string name="fragment_btn1">Фрагмент 1</string>
+    <string name="fragment_btn2">Фрагмент 2</string>
+    <string name="fragment_second_btn">Кнопка пустая для примера</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment! Hello blank fragment! Hello blank fragment!</string>
+
+</resources>
